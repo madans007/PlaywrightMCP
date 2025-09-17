@@ -1,0 +1,276 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - button "$ Currency " [ref=e7] [cursor=pointer]:
+        - strong [ref=e8] [cursor=pointer]: $
+        - generic [ref=e9] [cursor=pointer]: Currency
+        - generic [ref=e10] [cursor=pointer]: 
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link "" [ref=e14] [cursor=pointer]:
+            - /url: https://tutorialsninja.com/demo/index.php?route=information/contact
+            - generic [ref=e15] [cursor=pointer]: 
+          - generic [ref=e16]: "123456789"
+        - listitem [ref=e17]:
+          - link " My Account" [ref=e18] [cursor=pointer]:
+            - /url: https://tutorialsninja.com/demo/index.php?route=account/account
+            - generic [ref=e19] [cursor=pointer]: 
+            - generic [ref=e20] [cursor=pointer]: My Account
+        - listitem [ref=e22]:
+          - link " Wish List (0)" [ref=e23] [cursor=pointer]:
+            - /url: https://tutorialsninja.com/demo/index.php?route=account/wishlist
+            - generic [ref=e24] [cursor=pointer]: 
+            - generic [ref=e25] [cursor=pointer]: Wish List (0)
+        - listitem [ref=e26]:
+          - link " Shopping Cart" [ref=e27] [cursor=pointer]:
+            - /url: https://tutorialsninja.com/demo/index.php?route=checkout/cart
+            - generic [ref=e28] [cursor=pointer]: 
+            - generic [ref=e29] [cursor=pointer]: Shopping Cart
+        - listitem [ref=e30]:
+          - link " Checkout" [ref=e31] [cursor=pointer]:
+            - /url: https://tutorialsninja.com/demo/index.php?route=checkout/checkout
+            - generic [ref=e32] [cursor=pointer]: 
+            - generic [ref=e33] [cursor=pointer]: Checkout
+  - banner [ref=e34]:
+    - generic [ref=e36]:
+      - heading "Qafox.com" [level=1] [ref=e39]:
+        - link "Qafox.com" [ref=e40] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=common/home
+      - generic [ref=e42]:
+        - textbox "Search" [ref=e43]
+        - button "" [ref=e45] [cursor=pointer]:
+          - generic [ref=e46] [cursor=pointer]: 
+      - button " 0 item(s) - $0.00" [ref=e49] [cursor=pointer]:
+        - generic [ref=e50] [cursor=pointer]: 
+        - generic [ref=e51] [cursor=pointer]: 0 item(s) - $0.00
+  - navigation [ref=e53]:
+    - generic: 
+    - list [ref=e55]:
+      - listitem [ref=e56]:
+        - link "Desktops" [ref=e57] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=20
+      - listitem [ref=e58]:
+        - link "Laptops & Notebooks" [ref=e59] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=18
+        - generic [ref=e60]:
+          - list [ref=e62]:
+            - listitem [ref=e63]:
+              - link "Macs (0)" [ref=e64] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=18_46
+            - listitem [ref=e65]:
+              - link "Windows (0)" [ref=e66] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=18_45
+          - link "Show AllLaptops & Notebooks" [ref=e67] [cursor=pointer]:
+            - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=18
+      - listitem [ref=e68]:
+        - link "Components" [ref=e69] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=25
+      - listitem [ref=e70]:
+        - link "Tablets" [ref=e71] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=57
+      - listitem [ref=e72]:
+        - link "Software" [ref=e73] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=17
+      - listitem [ref=e74]:
+        - link "Phones & PDAs" [ref=e75] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=24
+      - listitem [ref=e76]:
+        - link "Cameras" [ref=e77] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=33
+      - listitem [ref=e78]:
+        - link "MP3 Players" [ref=e79] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=product/category&path=34
+  - generic [ref=e82]:
+    - generic [ref=e83]:
+      - generic [ref=e85]:
+        - img "MacBookAir" [ref=e87]
+        - link "iPhone 6" [ref=e89] [cursor=pointer]:
+          - /url: index.php?route=product/product&path=57&product_id=49
+          - img "iPhone 6" [ref=e90] [cursor=pointer]
+        - img "MacBookAir" [ref=e92]
+        - link "iPhone 6" [ref=e94] [cursor=pointer]:
+          - /url: index.php?route=product/product&path=57&product_id=49
+          - img "iPhone 6" [ref=e95] [cursor=pointer]
+      - generic:
+        - generic [ref=e99] [cursor=pointer]: 
+        - generic [ref=e100] [cursor=pointer]: 
+    - heading "Featured" [level=3] [ref=e101]
+    - generic [ref=e102]:
+      - generic [ref=e104]:
+        - link "MacBook" [ref=e106] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=43
+          - img "MacBook" [ref=e107] [cursor=pointer]
+        - generic [ref=e108]:
+          - heading "MacBook" [level=4] [ref=e109]:
+            - link "MacBook" [ref=e110] [cursor=pointer]:
+              - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=43
+          - paragraph [ref=e111]: Intel Core 2 Duo processor Powered by an Intel Core 2 Duo processor at speeds up to 2.1..
+          - paragraph [ref=e112]:
+            - text: $602.00
+            - generic [ref=e113]: Ex Tax:$500.00
+        - generic [ref=e114]:
+          - button " Add to Cart" [ref=e115] [cursor=pointer]:
+            - generic [ref=e116] [cursor=pointer]: 
+            - generic [ref=e117] [cursor=pointer]: Add to Cart
+          - button "" [ref=e118] [cursor=pointer]:
+            - generic [ref=e119] [cursor=pointer]: 
+          - button "" [ref=e120] [cursor=pointer]:
+            - generic [ref=e121] [cursor=pointer]: 
+      - generic [ref=e123]:
+        - link "iPhone" [ref=e125] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=40
+          - img "iPhone" [ref=e126] [cursor=pointer]
+        - generic [ref=e127]:
+          - heading "iPhone" [level=4] [ref=e128]:
+            - link "iPhone" [ref=e129] [cursor=pointer]:
+              - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=40
+          - paragraph [ref=e130]: iPhone is a revolutionary new mobile phone that allows you to make a call by simply tapping a nam..
+          - paragraph [ref=e131]:
+            - text: $123.20
+            - generic [ref=e132]: Ex Tax:$101.00
+        - generic [ref=e133]:
+          - button " Add to Cart" [ref=e134] [cursor=pointer]:
+            - generic [ref=e135] [cursor=pointer]: 
+            - generic [ref=e136] [cursor=pointer]: Add to Cart
+          - button "" [ref=e137] [cursor=pointer]:
+            - generic [ref=e138] [cursor=pointer]: 
+          - button "" [ref=e139] [cursor=pointer]:
+            - generic [ref=e140] [cursor=pointer]: 
+      - generic [ref=e142]:
+        - link "Apple Cinema 30\"" [ref=e144] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=42
+          - img "Apple Cinema 30\"" [ref=e145] [cursor=pointer]
+        - generic [ref=e146]:
+          - heading "Apple Cinema 30\"" [level=4] [ref=e147]:
+            - link "Apple Cinema 30\"" [ref=e148] [cursor=pointer]:
+              - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=42
+          - paragraph [ref=e149]: The 30-inch Apple Cinema HD Display delivers an amazing 2560 x 1600 pixel resolution. Designed sp..
+          - paragraph [ref=e150]:
+            - generic [ref=e151]: $110.00
+            - generic [ref=e152]: $122.00
+            - generic [ref=e153]: Ex Tax:$90.00
+        - generic [ref=e154]:
+          - button " Add to Cart" [ref=e155] [cursor=pointer]:
+            - generic [ref=e156] [cursor=pointer]: 
+            - generic [ref=e157] [cursor=pointer]: Add to Cart
+          - button "" [ref=e158] [cursor=pointer]:
+            - generic [ref=e159] [cursor=pointer]: 
+          - button "" [ref=e160] [cursor=pointer]:
+            - generic [ref=e161] [cursor=pointer]: 
+      - generic [ref=e163]:
+        - link "Canon EOS 5D" [ref=e165] [cursor=pointer]:
+          - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=30
+          - img "Canon EOS 5D" [ref=e166] [cursor=pointer]
+        - generic [ref=e167]:
+          - heading "Canon EOS 5D" [level=4] [ref=e168]:
+            - link "Canon EOS 5D" [ref=e169] [cursor=pointer]:
+              - /url: https://tutorialsninja.com/demo/index.php?route=product/product&product_id=30
+          - paragraph [ref=e170]: Canon's press material for the EOS 5D states that it 'defines (a) new D-SLR category', while we'r..
+          - paragraph [ref=e171]:
+            - generic [ref=e172]: $98.00
+            - generic [ref=e173]: $122.00
+            - generic [ref=e174]: Ex Tax:$80.00
+        - generic [ref=e175]:
+          - button " Add to Cart" [ref=e176] [cursor=pointer]:
+            - generic [ref=e177] [cursor=pointer]: 
+            - generic [ref=e178] [cursor=pointer]: Add to Cart
+          - button "" [ref=e179] [cursor=pointer]:
+            - generic [ref=e180] [cursor=pointer]: 
+          - button "" [ref=e181] [cursor=pointer]:
+            - generic [ref=e182] [cursor=pointer]: 
+    - generic [ref=e183]:
+      - generic [ref=e185]:
+        - img "Harley Davidson" [ref=e187]
+        - img "Dell" [ref=e189]
+        - img "Disney" [ref=e191]
+        - img "Starbucks" [ref=e193]
+        - img "Nintendo" [ref=e195]
+        - img "NFL" [ref=e197]
+        - img "RedBull" [ref=e199]
+        - img "Sony" [ref=e201]
+        - img "Coca Cola" [ref=e203]
+        - img "Burger King" [ref=e205]
+        - img "Canon" [ref=e207]
+        - img "Harley Davidson" [ref=e209]
+        - img "Dell" [ref=e211]
+        - img "Disney" [ref=e213]
+        - img "Starbucks" [ref=e215]
+        - img "Nintendo" [ref=e217]
+        - img "NFL" [ref=e219]
+        - img "RedBull" [ref=e221]
+        - img "Sony" [ref=e223]
+        - img "Coca Cola" [ref=e225]
+        - img "Burger King" [ref=e227]
+      - generic:
+        - generic [ref=e240] [cursor=pointer]: 
+        - generic [ref=e241] [cursor=pointer]: 
+  - contentinfo [ref=e242]:
+    - generic [ref=e243]:
+      - generic [ref=e244]:
+        - generic [ref=e245]:
+          - heading "Information" [level=5] [ref=e246]
+          - list [ref=e247]:
+            - listitem [ref=e248]:
+              - link "About Us" [ref=e249] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=information/information&information_id=4
+            - listitem [ref=e250]:
+              - link "Delivery Information" [ref=e251] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=information/information&information_id=6
+            - listitem [ref=e252]:
+              - link "Privacy Policy" [ref=e253] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=information/information&information_id=3
+            - listitem [ref=e254]:
+              - link "Terms & Conditions" [ref=e255] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=information/information&information_id=5
+        - generic [ref=e256]:
+          - heading "Customer Service" [level=5] [ref=e257]
+          - list [ref=e258]:
+            - listitem [ref=e259]:
+              - link "Contact Us" [ref=e260] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=information/contact
+            - listitem [ref=e261]:
+              - link "Returns" [ref=e262] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=account/return/add
+            - listitem [ref=e263]:
+              - link "Site Map" [ref=e264] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=information/sitemap
+        - generic [ref=e265]:
+          - heading "Extras" [level=5] [ref=e266]
+          - list [ref=e267]:
+            - listitem [ref=e268]:
+              - link "Brands" [ref=e269] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=product/manufacturer
+            - listitem [ref=e270]:
+              - link "Gift Certificates" [ref=e271] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=account/voucher
+            - listitem [ref=e272]:
+              - link "Affiliate" [ref=e273] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=affiliate/login
+            - listitem [ref=e274]:
+              - link "Specials" [ref=e275] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=product/special
+        - generic [ref=e276]:
+          - heading "My Account" [level=5] [ref=e277]
+          - list [ref=e278]:
+            - listitem [ref=e279]:
+              - link "My Account" [ref=e280] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=account/account
+            - listitem [ref=e281]:
+              - link "Order History" [ref=e282] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=account/order
+            - listitem [ref=e283]:
+              - link "Wish List" [ref=e284] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=account/wishlist
+            - listitem [ref=e285]:
+              - link "Newsletter" [ref=e286] [cursor=pointer]:
+                - /url: https://tutorialsninja.com/demo/index.php?route=account/newsletter
+      - separator [ref=e287]
+      - paragraph [ref=e288]:
+        - text: Powered By
+        - link "OpenCart" [ref=e289] [cursor=pointer]:
+          - /url: http://www.opencart.com
+        - text: Qafox.com © 2025
+```
