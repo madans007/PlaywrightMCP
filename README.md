@@ -4,16 +4,15 @@ This project is a testing suite built using Playwright, designed to automate bro
 
 ## Project Structure
 
-```
-bank
-├── tests
-│   ├── example.spec.ts
-│   └── helpers
-│       └── utils.ts
-├── playwright.config.ts
-├── package.json
-└── README.md
-```
+PlaywrightMCP/
+├── bank/ # Test specifications for banking domain or related features
+├── pages/ # Page Object Model (POM) classes representing web pages/components
+├── test-results/ # Generated test reports, screenshots, and logs
+├── package.json # NPM dependencies and scripts
+├── playwright.config.ts # Playwright configuration file
+├── tsconfig.json # TypeScript compiler configuration
+├── README.md # Project documentation
+└── ... # Other supporting files and configs
 
 ## Getting Started
 
